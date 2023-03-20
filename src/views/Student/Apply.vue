@@ -34,16 +34,16 @@
         <input type="text" class="form-control" id="institution" required>
       </div>
       <div class="mb-3">
-        <label for="research_topic" class="form-label">Previous research Topic</label>
+        <label for="research_topic" class="form-label">Previous Research Topic</label>
         <textarea class="form-control" id="research_topic" rows="2"></textarea>
       </div>
       <div class="mb-4">
-        <label for="engagement" class="form-label">Present engagement in research (if any)</label>
+        <label for="engagement" class="form-label">Present Engagement in Research (if any)</label>
         <textarea class="form-control" id="engagement" rows="2"></textarea>
         </div>
         <div class="form-check">
           <input type="checkbox" class="form-check-input " id="privacyPolicy" name="privacyPolicy" required>
-          <label class="form-check-label" for="privacyPolicy">I accept the privacy policy</label>
+          <label class="form-check-label" for="privacyPolicy">I accept the privacy policy.</label>
         </div>
         <div class="mb-2 text-center">
             <button type="submit" class="btn btn-primary">Submit</button>
