@@ -41,9 +41,14 @@
         <label for="engagement" class="form-label">Present Engagement in Research (if any)</label>
         <textarea class="form-control" id="engagement" rows="2"></textarea>
         </div>
+        <p>Boost Education Service is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you:</p>
         <div class="form-check">
           <input type="checkbox" class="form-check-input " id="privacyPolicy" name="privacyPolicy" required>
-          <label class="form-check-label" for="privacyPolicy">I accept the privacy policy.</label>
+          <label class="form-check-label" for="privacyPolicy">I agree to receive other communications from Boost Education Service.</label>
+        </div>
+        <div class="pt-2">
+            <p>You may unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our Privacy Policy.</p>
+          <p>By clicking submit below, you consent to allow Digital Planet to store and process the personal information submitted above to provide you the content requested.</p>
         </div>
         <div class="mb-2 text-center">
             <button type="submit" class="btn btn-primary">Submit</button>
