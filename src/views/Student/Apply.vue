@@ -50,7 +50,7 @@
             <p>You may unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our Privacy Policy.</p>
           <p>By clicking submit below, you consent to allow Digital Planet to store and process the personal information submitted above to provide you the content requested.</p>
         </div>
-        <div class="mb-2 text-center">
+        <div class="mb-2">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
