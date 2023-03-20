@@ -1,13 +1,57 @@
 <template>
-    <div class=" counselor-invite px-5">
-        <div class="row">
-            <div class="card-body">
-                <h2 class="title text-2xl">Student Registration Form</h2><br>
-
-                
-            </div>
+    <div class="container my-2 mx-auto">
+  <div class="card p-4">
+    <img class="mb-5 rounded" src="https://7897478.fs1.hubspotusercontent-na1.net/hubfs/7897478/WhatsApp%20Image%202023-03-11%20at%2012.04.41%20PM.jpeg" alt="">
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="first_name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first_name" required>
+          </div>
         </div>
-    </div>
+        <div class="col-md-6">
+          <div class="mb-3">
+            <label for="last_name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last_name" required>
+          </div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="whatsapp_number" class="form-label">Phone/ Whatsapp Number</label>
+        <input type="text" class="form-control" id="whatsapp_number" required>
+      </div>
+      <div class="mb-3">
+        <label for="discipline" class="form-label">Discipline / Department</label>
+        <input type="text" class="form-control" id="discipline" required>
+      </div>
+      <div class="mb-3">
+        <label for="institution" class="form-label">Last Educational Institution</label>
+        <input type="text" class="form-control" id="institution" required>
+      </div>
+      <div class="mb-3">
+        <label for="research_topic" class="form-label">Previous research Topic</label>
+        <textarea class="form-control" id="research_topic" rows="2"></textarea>
+      </div>
+      <div class="mb-4">
+        <label for="engagement" class="form-label">Present engagement in research (if any)</label>
+        <textarea class="form-control" id="engagement" rows="2"></textarea>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input " id="privacyPolicy" name="privacyPolicy" required>
+          <label class="form-check-label" for="privacyPolicy">I accept the privacy policy</label>
+        </div>
+        <div class="mb-2 text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+     </div>
+     </div>
+
 
 </template>
 <script setup>
