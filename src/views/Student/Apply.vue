@@ -1,7 +1,7 @@
 <template>
     <div class="container my-2 mx-auto">
   <div class="card p-4">
-    <img class="mb-5 rounded" src="https://7897478.fs1.hubspotusercontent-na1.net/hubfs/7897478/WhatsApp%20Image%202023-03-11%20at%2012.04.41%20PM.jpeg" alt="">
+    <img class="mb-5 rounded" src="https://www.boosteducationservice.co.uk/wp-content/uploads/2023/03/event-cover.jpg" alt="">
     <form>
       <div class="row">
         <div class="col-md-6">
@@ -26,22 +26,42 @@
         <input type="text" class="form-control" id="whatsapp_number" required>
       </div>
       <div class="mb-3">
-        <label for="discipline" class="form-label">Discipline / Department</label>
-        <input type="text" class="form-control" id="discipline" required>
+        <label for="discipline" class="form-label">Discipline</label>
+        <input type="text" class="form-control" id="discipline" placeholder="Ex. Law, Business Management" required>
       </div>
-      <div class="mb-3">
-        <label for="institution" class="form-label">Last Educational Institution</label>
-        <input type="text" class="form-control" id="institution" required>
-      </div>
-      <div class="mb-3">
-        <label for="research_topic" class="form-label">Previous Research Topic</label>
-        <textarea class="form-control" id="research_topic" rows="2"></textarea>
+      <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="institution" class="form-label">Last Qualification</label>
+                <input type="text" class="form-control" id="institution" placeholder="Ex. MSc, MBA" required>
+            </div>
+        </div>
+            <div class="col-md-6">
+            <div class="mb-3">
+                <label for="year" class="form-label">Finishing Year</label>
+                <input type="text" class="form-control" id="year" required>
+            </div>
+        </div>
       </div>
       <div class="mb-4">
-        <label for="engagement" class="form-label">Present Engagement in Research (if any)</label>
-        <textarea class="form-control" id="engagement" rows="2"></textarea>
+        <label for="research_topic" class="form-label">Research Topic</label>
+        <textarea class="form-control" id="research_topic" rows="2"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label for="Proposal" class="form-label">Research Proposal</label>
+                <input type="file" class="form-control-file" id="Proposal"  required>
+            </div>
         </div>
-        <p>Boost Education Service is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you:</p>
+            <div class="col-md-6">
+            <div class="mb-3">
+                <label for="cv" class="form-label">CV</label>
+                <input type="file" class="form-control-file" id="cv" required>
+            </div>
+        </div>
+      </div>
+        <p>Boost Education Service is committed to protecting and respecting your privacy, and we'll only use your personal information to administer your account and to provide the products and services you requested from us. From time to time, we would like to contact you about our products and services, as well as other content that may be of interest to you. If you consent to us contacting you for this purpose, please tick below to say how you would like us to contact you:</p>
         <div class="form-check">
           <input type="checkbox" class="form-check-input " id="privacyPolicy" name="privacyPolicy" required>
           <label class="form-check-label" for="privacyPolicy">I agree to receive other communications from Boost Education Service.</label>
